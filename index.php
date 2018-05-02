@@ -4,7 +4,7 @@
 
 $listOfColours = ["red","green","blue"];
 
-for($i = 0; $i < $listOfColours.length; i++) {
+for($i = 0; $i < $listOfColours.length; $i++) {
 
 echo $listOfColours[$i];
 
