@@ -3,8 +3,9 @@
 <?php
 
 $listOfColours = ["red","green","blue"];
+$length = sizeof($listOfColours);
 
-for($i = 0; $i < $listOfColours.length; $i++) {
+for($i = 0; $i < $listOfColours; $i++) {
 
 echo $listOfColours[$i];
 
